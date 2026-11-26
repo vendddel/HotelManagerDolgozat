@@ -26,10 +26,11 @@ class Program
         Console.WriteLine(Suite.Describe());
 
         Console.WriteLine("---------------------Check in---------------------");
-        Console.WriteLine("--------------------------------------------------");
-
         Console.WriteLine(hotel.CheckIn(101) ? "Sikeres foglalás" : "Sikertelen foglalás");
         Console.WriteLine(hotel.CheckIn(301) ? "Sikeres foglalás" : "Sikertelen foglalás");
+        Console.WriteLine("--------------------------------------------------");
+
+        
 
         Console.WriteLine(SingleRoom.Describe());
         Console.WriteLine(DoubleRoom1.Describe());
@@ -37,10 +38,11 @@ class Program
         Console.WriteLine(Suite.Describe());
 
         Console.WriteLine("---------------------Check in ujra ---------------------");
-        Console.WriteLine("--------------------------------------------------------");
-
         Console.WriteLine(hotel.CheckIn(101) ? "Sikeres foglalás" : "Sikertelen foglalás");
         Console.WriteLine(hotel.CheckIn(999) ? "Sikeres foglalás" : "Sikertelen foglalás");
+        Console.WriteLine("--------------------------------------------------------");
+
+        
         
 
 
